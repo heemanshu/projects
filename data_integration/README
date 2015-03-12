@@ -1,0 +1,23 @@
+Heemanshu Suri (heemanshusuri@gmail.com)
+
+The data is being integrated from 2 websites, amazon and barnesandnoble. I am crawling Books from these sources.
+
+The database contains following attributes(columns):
+1. id
+2. ISBN_13
+3. Title
+4. Author
+5. Price
+6. Publisher
+7. Publication_date
+8. Pages
+
+There are 3253 tuples in barnesandnoble.json
+There are 3467 tuples in amazon.json
+
+The scripts to crawl the data, are:
+tableA_amazon.py
+tableB_b_and_n.py
+
+The script to perform blocking operation on two input json files is
+blocking.py
